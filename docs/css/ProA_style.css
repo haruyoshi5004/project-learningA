@@ -1,17 +1,18 @@
 /* ページ全体の背景色などを設定 */
 main {
-	background: #efffff;
+	background: #63f07b;
 }
 
 /* ページの見出し領域の背景色，画像などを設定（id属性で設定） */
 /* 画像のファイルへのパスはこのCSSファイルのあるフォルダから見て，どこにあるかの相対パスとなる */
 #bg-head {
-	background: #deedff url(../photos/header_back_ground.jpg) repeat-x;
+	background: #deedff url(../photos/satoyama_9.JPG) repeat-x;
+	background-size: cover;
 }
 
 /* class属性で設定した領域で背景を青系（#99e0ff）にする */
-.bg-lightblue{
-	background: #99e0ff;
+.bg-lightgreen{
+	background: #0cd10c;
 }
 
 .border-dashed{
@@ -30,9 +31,26 @@ main {
 
 /* 地図の表示領域の設定 */
 #map_here{
-	float: left;
-	clear: left;
+	justify-content: left;
+	align-items: left;
 	width: 340px;
 	height: 240px;
 }
 
+#thumnail_img {
+    width: 500px; 
+    height: 600px; 
+  }
+
+#detail {
+	font-size: 20px;
+}
+
+
+.text-orange{
+	color: #c27800;
+}
+
+.text-yellowgreen{
+	color: rgb(47, 193, 18);
+}
