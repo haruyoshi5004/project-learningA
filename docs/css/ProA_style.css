@@ -54,3 +54,8 @@ main {
 .text-yellowgreen{
 	color: rgb(47, 193, 18);
 }
+
+.card-img{
+	width: 100px;
+	height: 100px;
+}
