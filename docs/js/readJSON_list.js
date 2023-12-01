@@ -54,7 +54,7 @@
 			if(q == 0 || (q != 0 && elem.title.indexOf(q) != -1)) { //?q=が無いときはq==0，?q=があるとき(q!=0)はelemの要素（title, abstract, detailなど）にマッチ
 			item_html += '<div class="col">';
 			item_html += '<div class="card">'; //Bootstrapのcardを使って繰り返し要素を出力する（ここでは1段のみ）
-			item_html += '<img class="card-img-top card-img" src="photos/'+elem.image_file+'_thum.jpg" alt="'+elem.title+'の画像">'; //image_fileの値と対応する画像のファイル名に_thumを付けた.jpgファイルを用意する
+			item_html += '<img class="card-img-top" src="photos/'+elem.image_file+'_thum.jpg" alt="'+elem.title+'の画像">'; //image_fileの値と対応する画像のファイル名に_thumを付けた.jpgファイルを用意する
 			item_html += '<div class="card-body">';
 			item_html += '<h5 class="card-title">'+elem.title+'</h5>';
 			item_html += '<p class="card-text">'+elem.abstract+'</p>';
