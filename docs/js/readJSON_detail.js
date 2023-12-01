@@ -76,8 +76,8 @@ window.onload = function onLoad() {
 						let image_list_html = ""; //HTMLを文字列として追加していく
 						//各画像ファイルを「追加の画像」としてlightbox2のリストとして<img>タグを追加していく
 						if(obj.image_file1 != null && obj.image_file1!=""){
-							image_list_html += '<a href="./photos/'+obj.image_file1+'.jpg" data-lightbox="image-list">';
-							image_list_html += '<img src="./photos/'+obj.image_file1+'_thum.jpg" class="col-3 mb-5 box-shadow"/></a>';
+							image_list_html += '<a href="./photos/'+obj.image_file1+'.JPG" data-lightbox="image-list">';
+							image_list_html += '<img src="./photos/'+obj.image_file1+'.JPG" class="col-3 mb-5 box-shadow"/></a>';
 						}
 
 						if(obj.image_file2 != null && obj.image_file2!=""){
