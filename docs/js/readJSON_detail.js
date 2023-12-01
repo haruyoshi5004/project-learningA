@@ -79,17 +79,32 @@ window.onload = function onLoad() {
 							image_list_html += '<a href="./photos/'+obj.image_file1+'.JPG" data-lightbox="image-list">';
 							image_list_html += '<img src="./photos/'+obj.image_file1+'.JPG" class="col-3 mb-5 box-shadow"/></a>';
 						}
-
-						if(obj.image_file2 != null && obj.image_file2!=""){
-							image_list_html += '<a href="./photos/'+obj.image_file2+'.jpg" data-lightbox="image-list">';
-							image_list_html += '<img src="./photos/'+obj.image_file2+'_thum.jpg" class="col-3 mb-5 box-shadow"/></a>';
+						if(obj.image_file1 != null && obj.image_file2!=""){
+							image_list_html += '<a href="./photos/'+obj.image_file1+'.JPG" data-lightbox="image-list">';
+							image_list_html += '<img src="./photos/'+obj.image_file1+'.JPG" class="col-3 mb-5 box-shadow"/></a>';
+						}
+						if(obj.image_file1 != null && obj.image_file3!=""){
+							image_list_html += '<a href="./photos/'+obj.image_file1+'.JPG" data-lightbox="image-list">';
+							image_list_html += '<img src="./photos/'+obj.image_file1+'.JPG" class="col-3 mb-5 box-shadow"/></a>';
+						}
+						if(obj.image_file1 != null && obj.image_file4!=""){
+							image_list_html += '<a href="./photos/'+obj.image_file1+'.JPG" data-lightbox="image-list">';
+							image_list_html += '<img src="./photos/'+obj.image_file1+'.JPG" class="col-3 mb-5 box-shadow"/></a>';
+						}
+						if(obj.image_file1 != null && obj.image_file5!=""){
+							image_list_html += '<a href="./photos/'+obj.image_file1+'.JPG" data-lightbox="image-list">';
+							image_list_html += '<img src="./photos/'+obj.image_file1+'.JPG" class="col-3 mb-5 box-shadow"/></a>';
+						}
+						if(obj.image_file1 != null && obj.image_file6!=""){
+							image_list_html += '<a href="./photos/'+obj.image_file1+'.JPG" data-lightbox="image-list">';
+							image_list_html += '<img src="./photos/'+obj.image_file1+'.JPG" class="col-3 mb-5 box-shadow"/></a>';
+						}
+						if(obj.image_file1 != null && obj.image_file7!=""){
+							image_list_html += '<a href="./photos/'+obj.image_file1+'.JPG" data-lightbox="image-list">';
+							image_list_html += '<img src="./photos/'+obj.image_file1+'.JPG" class="col-3 mb-5 box-shadow"/></a>';
 						}
 
-						if(obj.image_file3 != null && obj.image_file3!=""){
-							image_list_html += '<a href="./photos/'+obj.image_file3+'.jpg" data-lightbox="image-list">';
-							image_list_html += '<img src="./photos/'+obj.image_file3+'_thum.jpg" class="col-3 mb-5 box-shadow"/></a>';
-						}
-
+						
 						image_list.innerHTML = image_list_html; //id=image_listのタグの中のHTMLをimage_list_htmlの文字列にする
 	 				}
 
