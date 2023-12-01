@@ -79,27 +79,27 @@ window.onload = function onLoad() {
 							image_list_html += '<a href="./photos/'+obj.image_file1+'.JPG" data-lightbox="image-list">';
 							image_list_html += '<img src="./photos/'+obj.image_file1+'.JPG" class="col-3 mb-5 box-shadow"/></a>';
 						}
-						if(obj.image_file1 != null && obj.image_file2!=""){
+						if(obj.image_file2 != null && obj.image_file2!=""){
 							image_list_html += '<a href="./photos/'+obj.image_file2+'.JPG" data-lightbox="image-list">';
 							image_list_html += '<img src="./photos/'+obj.image_file2+'.JPG" class="col-3 mb-5 box-shadow"/></a>';
 						}
-						if(obj.image_file1 != null && obj.image_file3!=""){
+						if(obj.image_file3 != null && obj.image_file3!=""){
 							image_list_html += '<a href="./photos/'+obj.image_file3+'.JPG" data-lightbox="image-list">';
 							image_list_html += '<img src="./photos/'+obj.image_file3+'.JPG" class="col-3 mb-5 box-shadow"/></a>';
 						}
-						if(obj.image_file1 != null && obj.image_file4!=""){
+						if(obj.image_file4 != null && obj.image_file4!=""){
 							image_list_html += '<a href="./photos/'+obj.image_file4+'.JPG" data-lightbox="image-list">';
 							image_list_html += '<img src="./photos/'+obj.image_file4+'.JPG" class="col-3 mb-5 box-shadow"/></a>';
 						}
-						if(obj.image_file1 != null && obj.image_file5!=""){
+						if(obj.image_file5 != null && obj.image_file5!=""){
 							image_list_html += '<a href="./photos/'+obj.image_file5+'.JPG" data-lightbox="image-list">';
 							image_list_html += '<img src="./photos/'+obj.image_file5+'.JPG" class="col-3 mb-5 box-shadow"/></a>';
 						}
-						if(obj.image_file1 != null && obj.image_file6!=""){
+						if(obj.image_file6 != null && obj.image_file6!=""){
 							image_list_html += '<a href="./photos/'+obj.image_file6+'.JPG" data-lightbox="image-list">';
 							image_list_html += '<img src="./photos/'+obj.image_file6+'.JPG" class="col-3 mb-5 box-shadow"/></a>';
 						}
-						if(obj.image_file1 != null && obj.image_file7!=""){
+						if(obj.image_file7 != null && obj.image_file7!=""){
 							image_list_html += '<a href="./photos/'+obj.image_file7+'.JPG" data-lightbox="image-list">';
 							image_list_html += '<img src="./photos/'+obj.image_file7+'.JPG" class="col-3 mb-5 box-shadow"/></a>';
 						}
