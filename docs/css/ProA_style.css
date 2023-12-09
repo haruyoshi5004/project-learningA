@@ -58,3 +58,7 @@ main {
 .card-img{
 	height: 600px;
 }
+
+.lead {
+	color: rgb(5, 104, 35);
+}
