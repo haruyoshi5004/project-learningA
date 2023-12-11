@@ -47,11 +47,11 @@ window.addEventListener("load",function(){
 				//console.log(data); //デバッグ用に取得したJSONデータをコンソールに表示
 				//console.log(data.review_list); //デバッグ用に取得したJSONデータのreview_listをコンソールに表示
 				// 入力値を初期化
-				//form[0].reset();
+				form[0].reset();
 				
-				//alert("ステータス："+data.Status+"\nメッセージ："+data.Message);
+				alert("ステータス："+data.Status+"\nメッセージ："+data.Message);
 
-				//location.reload();
+				location.reload();
 
 			});
 		});
