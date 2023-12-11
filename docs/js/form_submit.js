@@ -1,4 +1,4 @@
-window.onload = function onLoad() {
+window.addEventListener("load",function(){
 
 	//formタグ上でのsubmitイベントを処理(HTML上でformは1つのみが前提)
 	let form = document.getElementsByTagName("form");
@@ -56,4 +56,4 @@ window.onload = function onLoad() {
 			});
 		});
 	}
-}
+})

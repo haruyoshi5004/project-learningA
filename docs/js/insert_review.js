@@ -1,4 +1,4 @@
-window.onload = function onLoad() {
+window.addEventListener("load",function(){
 
 	//呼び出された際のURLパラメータの解析（.../detail.html?id=1などのとき，変数名idの値(1)を取り出す）
 	const urlParam = function(name){
@@ -67,4 +67,4 @@ window.onload = function onLoad() {
 		}
 	});
 
-}
+});
