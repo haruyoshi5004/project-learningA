@@ -49,7 +49,7 @@ window.addEventListener("load",function(){
 				// 入力値を初期化
 				form[0].reset();
 				
-				alert("ステータス："+data.Status+"\nメッセージ："+data.Message);
+				//alert("ステータス："+data.Status+"\nメッセージ："+data.Message);
 
 				location.reload();
 
