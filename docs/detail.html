@@ -121,6 +121,23 @@
     <p>
       <div class="m-5 form-group"><!-- レビュー投稿欄（送信はjs/form_submit.jsで行う -->
         <h3>コメントボックス</h3><br />
+        <style>
+          .m-5 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* 画面の高さいっぱいに広がるように */
+          }
+        
+          .form-group {
+            text-align: center; /* 中央に寄せるための追加スタイル */
+          }
+        
+          .input-group {
+            width: 50%; /* あくまで例として、適切なサイズに調整してください */
+          }
+        </style>
+        
         <div class="input-group">
           <!--  actionのURLは，掲示板機能を提供するWebAPIなので，変更の必要はありません -->
           <form method="POST" action="https://athena.abe-lab.jp/~hidenao/ProA_2023/Project2_reviewAPI/review_reg.php">
