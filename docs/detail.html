@@ -120,7 +120,7 @@
     </div>
     <p>
       <div class="m-5 form-group"><!-- レビュー投稿欄（送信はjs/form_submit.jsで行う -->
-        <h3>コメントボックス</h3><br />
+        <h3 class="row p-3 mb-5 bg-body rounded">コメントボックス</h3><br />
         
         <div class="input-group">
           <!--  actionのURLは，掲示板機能を提供するWebAPIなので，変更の必要はありません -->
@@ -138,9 +138,9 @@
             <input type="hidden" name="obj_id" id="obj_id"><!-- ここに各オブジェクトの番号を記入する必要はありません-->
             <input type="hidden" name="gid" id="gid" value="E"><!-- ※※ ここは各グループの記号に必ず変更すること ※※ -->
             <input class="form-control" type="submit" value="送信">
-            <span style="color:red">＜注意！＞</span><br />
-            <span style="color:red">送信ボタンは１回だけ押してください</span><br />
-            <span style="color:black">(送信ボタン押した後更新をかけることでユーザー名と評価コメントが反映されます)</span>
+            <p class="mb-0 text-danger">＜注意！＞</p>
+            <p class="mb-0 text-danger">送信ボタンは１回だけ押してください</p>
+            <p>(送信ボタン押した後更新をかけることでユーザー名と評価コメントが反映されます)</p>
             
           </form>
         </div>
