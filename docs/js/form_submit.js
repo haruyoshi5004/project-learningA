@@ -1,8 +1,8 @@
-window.onload = function onLoad() {
+window.addEventListener("load",function(){
 
 	//formタグ上でのsubmitイベントを処理(HTML上でformは1つのみが前提)
-	let form = document.getElementsByTagName("form");
-	if(form.length > 0){
+	let form = document.getElementsByTagName("form")[0];
+	if(form){
 		form.addEventListener("submit", function(event){
 			event.preventDefault(); //formタグの働きによるsubmitを抑制
 			// 送信ボタンを取得（後で使う: 二重送信を防止する。）
@@ -56,4 +56,4 @@ window.onload = function onLoad() {
 			});
 		});
 	}
-}
+})
